@@ -3,10 +3,6 @@ Smart Student Grade Manager with Predictive Analytics - C++ Project
 
 A C++ application that demonstrates fundamental programming skills with intelligent analytics for student performance tracking and prediction.
 
-![C++](https://img.shields.io/badge/C++-11-blue.svg)
-![Status](https://img.shields.io/badge/Status-Complete-green.svg)
-![License](https://img.shields.io/badge/License-MIT-yellow.svg)
-
 ## ✨ Features
 
 ### Core Functionality
