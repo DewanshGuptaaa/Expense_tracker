@@ -43,3 +43,39 @@ g++ main.cpp Expense.cpp ExpenseManager.cpp -o ExpenseTracker.exe
 
 # Windows
 ExpenseTracker.exe
+```
+## Usage
+
+1. Add Expense
+Enter a description, amount, and date (YYYY-MM-DD).
+Invalid dates will be rejected with an error message.
+
+2. View Expenses
+Displays all recorded expenses in a formatted list.
+
+3. View Total
+Displays the sum of all expenses.
+
+4. Exit
+Press 0 to exit the program.
+
+## Sample Output
+```bash
+Expense Tracker
+1. Add Expense
+2. View Expenses
+3. View Total
+0. Exit
+Enter choice: 1
+Enter description: Grocery
+Enter amount: 50.75
+Enter date (YYYY-MM-DD): 2025-09-16
+Expense added successfully!
+
+Enter choice: 2
+--- Expense List ---
+2025-09-16 | Grocery | $50.75
+
+Enter choice: 3
+Total Expenses: $50.75
+```
