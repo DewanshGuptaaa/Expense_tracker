@@ -35,8 +35,9 @@ g++ main.cpp Expense.cpp ExpenseManager.cpp -o ExpenseTracker
 
 # Windows
 g++ main.cpp Expense.cpp ExpenseManager.cpp -o ExpenseTracker.exe
-
+```
 3. Run the application:
+```bash
 # Linux/macOS
 ./ExpenseTracker
 
