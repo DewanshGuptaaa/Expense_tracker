@@ -1,27 +1,44 @@
-# smart_grade_manager
-Smart Student Grade Manager with Predictive Analytics - C++ Project
+# Expense Tracker C++ Project
 
-A C++ application that demonstrates fundamental programming skills with intelligent analytics for student performance tracking and prediction.
+## Overview
+The Expense Tracker is a **console-based C++ application** designed to help users record, view, and calculate their expenses. This project is **multi-file, modular, and beginner-friendly**, making it perfect for demonstrating C++ skills, object-oriented programming, and date validation logic.
 
-## ✨ Features
+**Features:**
+- Add expenses with description, amount, and date (YYYY-MM-DD).  
+- View a list of all recorded expenses.  
+- View the total sum of all expenses.  
+- Validate user input for proper date format and real calendar dates.  
 
-### Core Functionality
-- ✅ Add and manage student records
-- ✅ Track grades across multiple subjects  
-- ✅ Calculate GPA and averages automatically
-- ✅ Generate detailed grade reports
-- ✅ Persistent data storage (file I/O)
+## Project Structure
 
-### Smart Analytics 🧠
-- 🎯 **Risk Prediction**: Automatically identifies at-risk students
-- 📊 **Class Statistics**: Real-time performance analytics
-- 💡 **Smart Suggestions**: Personalized improvement recommendations
-- 🏆 **Performance Ranking**: Top performers identification
-- 📈 **Trend Analysis**: Grade pattern recognition
+ExpenseTracker/
+├── main.cpp # Main program logic
+├── Expense.h # Expense class declaration
+├── Expense.cpp # Expense class implementation
+├── ExpenseManager.h # ExpenseManager class declaration
+├── ExpenseManager.cpp # ExpenseManager class implementation
 
-### Programming Fundamentals
-- **Object-Oriented Programming**: Clean class design with proper encapsulation
-- **Data Structures**: Vector manipulation and management
-- **Algorithms**: Sorting (bubble sort), searching, statistical calculations
-- **File I/O**: Data persistence between program sessions
-- **Memory Management**: Proper resource handling
+## Prerequisites
+- C++ compiler (e.g., `g++` or `clang++`)  
+- Git (for uploading to GitHub)  
+- Terminal/Command Prompt  
+
+## Compilation and Running
+
+1. Open terminal/command prompt in the `ExpenseTracker` folder.  
+
+2. Compile all files together:
+
+```bash
+# Linux/macOS
+g++ main.cpp Expense.cpp ExpenseManager.cpp -o ExpenseTracker
+
+# Windows
+g++ main.cpp Expense.cpp ExpenseManager.cpp -o ExpenseTracker.exe
+
+3. Run the application:
+# Linux/macOS
+./ExpenseTracker
+
+# Windows
+ExpenseTracker.exe
