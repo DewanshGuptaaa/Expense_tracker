@@ -10,7 +10,7 @@ The Expense Tracker is a **console-based C++ application** designed to help user
 - Validate user input for proper date format and real calendar dates.  
 
 ## Project Structure
-
+```css
 ExpenseTracker/
 ├── main.cpp
 ├── Expense.h
@@ -18,7 +18,7 @@ ExpenseTracker/
 ├── ExpenseManager.h
 ├── ExpenseManager.cpp
 ├── README.md
-
+```
 ## Prerequisites
 - C++ compiler (e.g., `g++` or `clang++`)  
 - Git (for uploading to GitHub)  
