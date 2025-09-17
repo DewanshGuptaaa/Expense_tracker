@@ -12,11 +12,12 @@ The Expense Tracker is a **console-based C++ application** designed to help user
 ## Project Structure
 
 ExpenseTracker/
-├── main.cpp # Main program logic
-├── Expense.h # Expense class declaration
-├── Expense.cpp # Expense class implementation
-├── ExpenseManager.h # ExpenseManager class declaration
-├── ExpenseManager.cpp # ExpenseManager class implementation
+├── main.cpp
+├── Expense.h
+├── Expense.cpp
+├── ExpenseManager.h
+├── ExpenseManager.cpp
+├── README.md
 
 ## Prerequisites
 - C++ compiler (e.g., `g++` or `clang++`)  
